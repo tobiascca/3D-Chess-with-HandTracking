@@ -41,4 +41,9 @@ nuget.config
 # Artifacts de build específicos de Unity
 /[Bb]uild/
 /[Bb]uilds/
-/UserSettings/
+/UserSettings/Library/
+Temp/
+Logs/
+build*
+*.app
+
