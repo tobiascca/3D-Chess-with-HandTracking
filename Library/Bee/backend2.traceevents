@@ -1,0 +1,992 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1777379187944039, "dur":15137, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1777379187959180, "dur":64, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1777379187959269, "dur":98, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1777379187959371, "dur":2928, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1777379187962299, "dur":461682, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1777379188424048, "dur":395, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1777379187959292, "dur":3012, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777379187962367, "dur":62, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"../../../../../../Applications/Unity/Hub/Editor/6000.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport" }}
+,{ "pid":12345, "tid":1, "ts":1777379187962429, "dur":103, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"../../../../../../Applications/Unity/Hub/Editor/6000.4.2f1/Unity.app/Contents/Resources/BuildPipeline" }}
+,{ "pid":12345, "tid":1, "ts":1777379187962577, "dur":167, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"/Applications/Unity/Hub/Editor/6000.4.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/MonoBleedingEdge/etc" }}
+,{ "pid":12345, "tid":1, "ts":1777379187962764, "dur":88, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"/Applications/Unity/Hub/Editor/6000.4.2f1/Unity.app/Contents/Resources/BuildPipeline" }}
+,{ "pid":12345, "tid":1, "ts":1777379187962852, "dur":620, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"/Applications/Unity/Hub/Editor/6000.4.2f1/Unity.app/Contents/Resources/Scripting/il2cpp/build/deploy" }}
+,{ "pid":12345, "tid":1, "ts":1777379187963472, "dur":2540, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"/Applications/Unity/Hub/Editor/6000.4.2f1/Unity.app/Contents/Resources/Scripting/il2cpp/libil2cpp" }}
+,{ "pid":12345, "tid":1, "ts":1777379187962305, "dur":3768, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777379187966395, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/jazgonzalez/Documents/7th semester/computer graphics/3D-Chess-Unity-master/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379187966474, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/jazgonzalez/Documents/7th semester/computer graphics/3D-Chess-Unity-master/Library/Bee/PlayerScriptAssemblies/kcp2k.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379187966555, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/jazgonzalez/Documents/7th semester/computer graphics/3D-Chess-Unity-master/Library/Bee/PlayerScriptAssemblies/Mirror.Authenticators.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379187966632, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/jazgonzalez/Documents/7th semester/computer graphics/3D-Chess-Unity-master/Library/Bee/PlayerScriptAssemblies/Mirror.Components.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379187966743, "dur":118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/jazgonzalez/Documents/7th semester/computer graphics/3D-Chess-Unity-master/Library/Bee/PlayerScriptAssemblies/Mirror.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379187966863, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/jazgonzalez/Documents/7th semester/computer graphics/3D-Chess-Unity-master/Library/Bee/PlayerScriptAssemblies/Mirror.Transports.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379187967056, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/jazgonzalez/Documents/7th semester/computer graphics/3D-Chess-Unity-master/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379187967171, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/jazgonzalez/Documents/7th semester/computer graphics/3D-Chess-Unity-master/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379187972409, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/jazgonzalez/Documents/7th semester/computer graphics/3D-Chess-Unity-master/Library/Bee/artifacts/UnityLinkerInputs/EditorToUnityLinkerData.json" }}
+,{ "pid":12345, "tid":1, "ts":1777379187966079, "dur":8425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker /Users/jazgonzalez/Documents/7th semester/computer graphics/3D-Chess-Unity-master/Library/Bee/artifacts/unitylinker_hph0.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1777379187974806, "dur":80, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777379188225184, "dur":537, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777379187982136, "dur":243835, "ph":"X", "name": "UnityLinker",  "args": { "detail":"/Users/jazgonzalez/Documents/7th semester/computer graphics/3D-Chess-Unity-master/Library/Bee/artifacts/unitylinker_hph0.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1777379188228339, "dur":613, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188228336, "dur":617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188228953, "dur":2249, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188231202, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777379188232030, "dur":377, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188232001, "dur":406, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188231484, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188232416, "dur":3322, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188232413, "dur":3325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188235738, "dur":897, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188236771, "dur":3354, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188236768, "dur":3357, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188236639, "dur":3491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188240134, "dur":4767, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188240131, "dur":4770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188245027, "dur":1826, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188245025, "dur":1828, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188244908, "dur":1949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188246860, "dur":406, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188246857, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188247365, "dur":259, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188247363, "dur":261, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188247273, "dur":356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188247638, "dur":2198, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188247629, "dur":2208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188249952, "dur":1242, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188249949, "dur":1245, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188249844, "dur":1354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188251201, "dur":2566, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188251199, "dur":2568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188253853, "dur":1995, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188253852, "dur":1996, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188253773, "dur":2103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188255881, "dur":310, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188255876, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188256306, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188256304, "dur":141, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188256200, "dur":252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188256456, "dur":4283, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188256452, "dur":4288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188260848, "dur":3977, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188260845, "dur":3980, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188260746, "dur":4084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188264834, "dur":2650, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188264830, "dur":2654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188267627, "dur":2373, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188267626, "dur":2374, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188267508, "dur":2503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188270015, "dur":1993, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/SimpleWebTransport.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188270011, "dur":1997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/SimpleWebTransport.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188272162, "dur":459, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/SimpleWebTransport.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188272159, "dur":462, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/SimpleWebTransport.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188272021, "dur":604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/SimpleWebTransport.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188272625, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188272990, "dur":90, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188272762, "dur":326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188273174, "dur":284, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188273088, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188273744, "dur":245, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188273735, "dur":254, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188273498, "dur":495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1777379188273993, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1777379188274116, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.GIModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1777379188274388, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AdaptivePerformanceModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1777379188274761, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Runtime.Serialization-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1777379188274831, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.PerformanceReportingModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1777379188275030, "dur":551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.GraphicsStateCollectionSerializerModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1777379188275581, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1777379188275638, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TextRenderingModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1777379188275818, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Multiplayer.Center.Common-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1777379188275947, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Mirror.Components-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1777379188276336, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.IO.Compression.FileSystem-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1777379188276741, "dur":147248, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777379187959324, "dur":2991, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777379187962324, "dur":772, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777379187963096, "dur":1242, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777379187964338, "dur":656, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777379187964994, "dur":1082, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777379187966760, "dur":501, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_l6pt.info" }}
+,{ "pid":12345, "tid":2, "ts":1777379187967291, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PlayerDataCache/OSXUniversal2/Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1777379187967264, "dur":6505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/MacStandalonePlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1777379187973892, "dur":240, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777379187974192, "dur":58856, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1777379188034101, "dur":162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1777379188034264, "dur":194090, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777379188228359, "dur":189, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.UnityConsentModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188228355, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityConsentModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188231630, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityConsentModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188231628, "dur":119, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityConsentModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188231198, "dur":586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityConsentModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188231797, "dur":173, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188231785, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188232129, "dur":255, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188232127, "dur":257, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188231981, "dur":416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188232401, "dur":3990, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188232397, "dur":3995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188236392, "dur":257, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188236850, "dur":6946, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188236848, "dur":6948, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188236669, "dur":7146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188243828, "dur":5350, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188243817, "dur":5361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188249394, "dur":3491, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188249389, "dur":3496, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188249185, "dur":3704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188252893, "dur":5052, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188252890, "dur":5055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188258105, "dur":7854, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188258102, "dur":7857, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188257952, "dur":8012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188265967, "dur":1927, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188265964, "dur":1930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188268005, "dur":1426, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188268003, "dur":1428, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188267900, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188269439, "dur":2510, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188269435, "dur":2514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188272122, "dur":784, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188272120, "dur":786, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188271959, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188272953, "dur":634, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188272910, "dur":677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188273928, "dur":591, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188273918, "dur":601, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188273717, "dur":805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1777379188274581, "dur":605, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1777379188275489, "dur":72350, "ph":"X", "name": "ExtractUsedFeatures",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Assembly-CSharp-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":2, "ts":1777379188347963, "dur":76012, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777379187959327, "dur":3001, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777379187962330, "dur":1156, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777379187963487, "dur":1238, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777379187964725, "dur":1364, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777379187966124, "dur":52, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1777379187968056, "dur":62, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1777379187967549, "dur":578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1777379187968220, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1777379187968287, "dur":83, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1777379187969161, "dur":51, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1777379187968745, "dur":480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1777379187969326, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Frameworks/libmono-native.dylib" }}
+,{ "pid":12345, "tid":3, "ts":1777379187969409, "dur":56, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Frameworks/libmono-native.dylib" }}
+,{ "pid":12345, "tid":3, "ts":1777379187969465, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777379187970109, "dur":54, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Frameworks/libmono-native.dylib" }}
+,{ "pid":12345, "tid":3, "ts":1777379187969655, "dur":516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Frameworks/libmono-native.dylib" }}
+,{ "pid":12345, "tid":3, "ts":1777379187970827, "dur":78, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1777379187970296, "dur":621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1777379187971033, "dur":77, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1777379187971849, "dur":83, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1777379187971296, "dur":668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1777379187972132, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777379187972267, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777379187972334, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777379187972405, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777379187972508, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777379187972590, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777379187972704, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777379187972782, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777379187972864, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777379187972959, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777379187973132, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777379187973187, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777379187973260, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777379187973340, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777379187973456, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777379187973529, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777379187973606, "dur":254767, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777379188228380, "dur":792, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188228373, "dur":799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188229172, "dur":1982, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188231597, "dur":417, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188231592, "dur":422, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188231299, "dur":727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188232035, "dur":172, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188232027, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188232365, "dur":500, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188232351, "dur":514, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188232221, "dur":653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188232883, "dur":2062, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188232874, "dur":2071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188235073, "dur":2196, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188235071, "dur":2198, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188234954, "dur":2319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188237277, "dur":675, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.RenderAs2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188237273, "dur":680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.RenderAs2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188238065, "dur":491, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.RenderAs2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188238063, "dur":493, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.RenderAs2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188237959, "dur":603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.RenderAs2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188238565, "dur":6397, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188238562, "dur":6401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188245180, "dur":3141, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188245178, "dur":3143, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188244988, "dur":3337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188248330, "dur":971, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188248325, "dur":976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188249491, "dur":635, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188249484, "dur":642, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188249312, "dur":819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188250135, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188250131, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188250394, "dur":227, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188250393, "dur":228, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188250274, "dur":367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188250644, "dur":2102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188250641, "dur":2105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188252844, "dur":2499, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188252843, "dur":2500, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188252752, "dur":2595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188255350, "dur":5479, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188255347, "dur":5482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188260939, "dur":7128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188260937, "dur":7130, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188260836, "dur":7235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188268075, "dur":1324, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188268071, "dur":1328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188269497, "dur":2831, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188269496, "dur":2832, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188269405, "dur":2927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188272336, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.InsightsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188272332, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.InsightsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188272613, "dur":172, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.InsightsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188272612, "dur":174, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.InsightsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188272464, "dur":325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.InsightsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188272793, "dur":245, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188272789, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188273645, "dur":534, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188273599, "dur":580, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188273296, "dur":886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1777379188274183, "dur":872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ImageConversionModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":3, "ts":1777379188275055, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1777379188275124, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.PhysicsModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":3, "ts":1777379188275281, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AnimationModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":3, "ts":1777379188275628, "dur":958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AndroidJNIModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":3, "ts":1777379188276683, "dur":147265, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379187959335, "dur":2998, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379187962335, "dur":1141, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379187963476, "dur":1230, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379187964706, "dur":398, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379187965104, "dur":978, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379187966086, "dur":51, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/MainMenu.nib/designable.nib" }}
+,{ "pid":12345, "tid":4, "ts":1777379187966555, "dur":191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/MainMenu.nib/designable.nib" }}
+,{ "pid":12345, "tid":4, "ts":1777379187967034, "dur":298, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1777379187967030, "dur":302, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1777379187966872, "dur":500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1777379187967556, "dur":50, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1777379187967722, "dur":563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1777379187968406, "dur":98, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1777379187969321, "dur":62, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1777379187968674, "dur":716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1777379187969484, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/MainMenu.nib/keyedobjects.nib" }}
+,{ "pid":12345, "tid":4, "ts":1777379187969565, "dur":76, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/MainMenu.nib/keyedobjects.nib" }}
+,{ "pid":12345, "tid":4, "ts":1777379187970436, "dur":84, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/MainMenu.nib/keyedobjects.nib" }}
+,{ "pid":12345, "tid":4, "ts":1777379187969839, "dur":685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/MainMenu.nib/keyedobjects.nib" }}
+,{ "pid":12345, "tid":4, "ts":1777379187970675, "dur":71, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1777379187971556, "dur":171, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1777379187971482, "dur":245, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1777379187970918, "dur":820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1777379187971827, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379187971926, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379187972020, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379187972125, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379187972216, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379187972299, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379187972384, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379187972477, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379187972571, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379187972659, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379187972768, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379187972858, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379187972946, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379187973096, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379187973191, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379187973256, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379187973337, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379187973444, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379187973521, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379187973597, "dur":254753, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379188228401, "dur":799, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188228362, "dur":839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188229201, "dur":1980, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188231181, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1777379188232010, "dur":305, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188232008, "dur":307, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188231393, "dur":939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188232340, "dur":1228, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188232333, "dur":1235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188233736, "dur":1277, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188233718, "dur":1295, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188233575, "dur":1445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188235024, "dur":4532, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/Mirror.Components.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188235020, "dur":4537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Mirror.Components.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188239916, "dur":6176, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/Mirror.Components.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188239914, "dur":6178, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Mirror.Components.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188239563, "dur":6537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/Mirror.Components.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188246105, "dur":1263, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188246100, "dur":1268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188247464, "dur":1365, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188247463, "dur":1366, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188247377, "dur":1457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188248838, "dur":437, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188248834, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188249457, "dur":487, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188249452, "dur":492, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188249290, "dur":658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188249953, "dur":2777, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188249948, "dur":2782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188252827, "dur":2988, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188252826, "dur":2989, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188252737, "dur":3085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188255825, "dur":6904, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188255822, "dur":6909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188262948, "dur":8210, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188262946, "dur":8212, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188262768, "dur":8395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188271168, "dur":1107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188271164, "dur":1111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188272401, "dur":649, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188272398, "dur":652, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188272284, "dur":770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188273054, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.IdentifiersModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188273159, "dur":113, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.IdentifiersModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188273677, "dur":85, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.IdentifiersModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188273427, "dur":339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.IdentifiersModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1777379188273835, "dur":489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.InputLegacyModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1777379188274739, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ClusterInputModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1777379188274926, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.CoreModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1777379188274994, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.InputForUIModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1777379188275061, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.EnterpriseServices-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1777379188275335, "dur":406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Xml-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1777379188275776, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.PhysicsBackendPhysXModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1777379188275895, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Mirror.Transports-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1777379188276035, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityConnectModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1777379188276572, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ClusterRendererModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1777379188276727, "dur":147258, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1777379187959343, "dur":2994, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1777379187962340, "dur":1054, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1777379187963394, "dur":1227, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1777379187964621, "dur":482, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1777379187965103, "dur":976, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1777379187966160, "dur":71, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1777379187967512, "dur":54, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1777379187967222, "dur":349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1777379187967572, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1777379187968401, "dur":181, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1777379187968352, "dur":230, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1777379187967922, "dur":666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1777379187968668, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1777379187969425, "dur":102, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1777379187969072, "dur":488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1777379187969650, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1777379187969725, "dur":62, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1777379187970657, "dur":72, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1777379187970175, "dur":561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1777379187970896, "dur":58, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1777379187971520, "dur":224, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1777379187971457, "dur":287, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1777379187970961, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1777379187971866, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1777379187971988, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1777379187972111, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1777379187972203, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1777379187972259, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1777379187972326, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1777379187972627, "dur":343, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/One Day Project: 3D Chess_h4a1.info" }}
+,{ "pid":12345, "tid":5, "ts":1777379187972971, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1777379187973137, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1777379187973208, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1777379187973268, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1777379187973384, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1777379187973469, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1777379187973533, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1777379187973614, "dur":254772, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1777379188228411, "dur":638, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188228388, "dur":662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188229050, "dur":2098, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188231555, "dur":586, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188231550, "dur":591, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188231174, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188232152, "dur":1434, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188232148, "dur":1438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188233792, "dur":1937, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188233790, "dur":1939, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188233594, "dur":2139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188235737, "dur":1638, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188235734, "dur":1641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188237492, "dur":1002, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188237491, "dur":1003, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188237382, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188238502, "dur":1606, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188238499, "dur":1610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188243703, "dur":1155, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188243684, "dur":1174, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188240115, "dur":4747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188244870, "dur":1776, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188244867, "dur":1779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188246748, "dur":798, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188246746, "dur":800, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188246653, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188247553, "dur":1421, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188247550, "dur":1424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188249080, "dur":1138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188249078, "dur":1140, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188248982, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188250231, "dur":144, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.ScriptingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188250227, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.ScriptingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188250561, "dur":217, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.ScriptingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188250559, "dur":219, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.ScriptingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188250427, "dur":355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.ScriptingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188250786, "dur":592, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188250782, "dur":596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188251473, "dur":471, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188251471, "dur":473, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188251384, "dur":563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188251950, "dur":1225, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/kcp2k.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188251948, "dur":1227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/kcp2k.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188253266, "dur":917, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/kcp2k.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188253265, "dur":918, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/kcp2k.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188253181, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/kcp2k.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188254195, "dur":1491, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.AdaptivePerformanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188254191, "dur":1495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.AdaptivePerformanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188255779, "dur":1311, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.AdaptivePerformanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188255777, "dur":1314, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.AdaptivePerformanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188255692, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.AdaptivePerformanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188257098, "dur":7760, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/Mirror.BouncyCastle.Cryptography.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188257095, "dur":7764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Mirror.BouncyCastle.Cryptography.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188264964, "dur":7095, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/Mirror.BouncyCastle.Cryptography.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188264962, "dur":7097, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Mirror.BouncyCastle.Cryptography.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188264865, "dur":7197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/Mirror.BouncyCastle.Cryptography.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188272067, "dur":366, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188272063, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188272650, "dur":220, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188272647, "dur":223, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188272441, "dur":432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188272909, "dur":1082, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188272874, "dur":1117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188274232, "dur":874, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188274218, "dur":888, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188274026, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1777379188275141, "dur":837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MacOSCodeSignBundleInPlace build chess.app/Contents/MacOS/One Day Project: 3D Chess (+1 other)" }}
+,{ "pid":12345, "tid":5, "ts":1777379188276274, "dur":147527, "ph":"X", "name": "MacOSCodeSignBundleInPlace",  "args": { "detail":"build chess.app/Contents/MacOS/One Day Project: 3D Chess (+1 other)" }}
+,{ "pid":12345, "tid":6, "ts":1777379187959344, "dur":2999, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1777379187962346, "dur":1155, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1777379187963502, "dur":1200, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1777379187964702, "dur":398, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1777379187965100, "dur":978, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1777379187966110, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MacOSCodeSignDylibCopy build chess.app/Contents/Frameworks/UnityPlayer.dylib" }}
+,{ "pid":12345, "tid":6, "ts":1777379187966998, "dur":72504, "ph":"X", "name": "MacOSCodeSignDylibCopy",  "args": { "detail":"build chess.app/Contents/Frameworks/UnityPlayer.dylib" }}
+,{ "pid":12345, "tid":6, "ts":1777379188039551, "dur":188823, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1777379188228411, "dur":2409, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188228382, "dur":2438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188230820, "dur":374, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188231194, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1777379188231914, "dur":5059, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188231910, "dur":5063, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188231329, "dur":5675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188237008, "dur":3276, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188237005, "dur":3279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188240284, "dur":3320, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188243742, "dur":2485, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188243741, "dur":2486, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188243616, "dur":2615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188246235, "dur":544, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188246232, "dur":547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188246893, "dur":503, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188246891, "dur":505, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188246798, "dur":602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188247404, "dur":2045, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188247400, "dur":2049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188249571, "dur":1854, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188249566, "dur":1859, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188249456, "dur":1978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188251436, "dur":1462, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188251434, "dur":1465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188253004, "dur":2171, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188253002, "dur":2173, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188252907, "dur":2272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188255183, "dur":149, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.PhysicsBackendPhysXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188255179, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsBackendPhysXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188255422, "dur":194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsBackendPhysXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188255421, "dur":195, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsBackendPhysXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188255338, "dur":282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsBackendPhysXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188255624, "dur":170, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188255621, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188255895, "dur":252, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188255893, "dur":254, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188255804, "dur":347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188256155, "dur":2151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188256151, "dur":2155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188258788, "dur":3725, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188258675, "dur":3838, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188258315, "dur":4203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188262523, "dur":2465, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188262519, "dur":2469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188265088, "dur":1392, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188265086, "dur":1394, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188264995, "dur":1493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188266492, "dur":677, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188266489, "dur":681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188267265, "dur":283, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188267263, "dur":285, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188267176, "dur":376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188267556, "dur":2437, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188267553, "dur":2440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188270099, "dur":2163, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188270097, "dur":2165, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188270003, "dur":2273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188272280, "dur":358, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188272276, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188272820, "dur":239, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188272817, "dur":242, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188272647, "dur":415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188273124, "dur":231, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188273062, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188273687, "dur":421, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188273643, "dur":465, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188273401, "dur":710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1777379188274112, "dur":889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UIModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":6, "ts":1777379188275176, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UI-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":6, "ts":1777379188275420, "dur":676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":6, "ts":1777379188276191, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UmbraModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":6, "ts":1777379188276331, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VideoModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":6, "ts":1777379188276576, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Mono.Security-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":6, "ts":1777379188276721, "dur":147190, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1777379187959352, "dur":2996, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1777379187962351, "dur":1170, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1777379187963522, "dur":1199, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1777379187964721, "dur":1353, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1777379187966095, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MergeApplePrivacyManifests Library/Bee/artifacts/MacStandalonePlayerBuildProgram/PrivacyInfo.xcprivacy (+1 other)" }}
+,{ "pid":12345, "tid":7, "ts":1777379187967973, "dur":53, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/PrivacyInfo.xcprivacy" }}
+,{ "pid":12345, "tid":7, "ts":1777379187967403, "dur":628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/PrivacyInfo.xcprivacy" }}
+,{ "pid":12345, "tid":7, "ts":1777379187968031, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1777379187968096, "dur":63, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1777379187968489, "dur":604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1777379187970328, "dur":86, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1777379187969763, "dur":654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1777379187970578, "dur":69, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1777379187971260, "dur":67, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1777379187970794, "dur":537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1777379187971462, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1777379187971600, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1777379187972445, "dur":146, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1777379187971987, "dur":630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1777379187972739, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1777379187972831, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1777379187972907, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1777379187973010, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1777379187973161, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1777379187973282, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1777379187973413, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1777379187973487, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1777379187973566, "dur":254822, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1777379188228406, "dur":887, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188228389, "dur":905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188229294, "dur":1892, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188231186, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1777379188231927, "dur":373, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188231921, "dur":380, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188231371, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188232328, "dur":1280, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188232316, "dur":1293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188233749, "dur":1476, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188233748, "dur":1478, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188233618, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188235235, "dur":5086, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188235231, "dur":5090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188240321, "dur":3284, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188243803, "dur":3338, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188243801, "dur":3340, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188243645, "dur":3500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188247148, "dur":1635, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188247145, "dur":1638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188248899, "dur":1120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188248898, "dur":1121, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188248790, "dur":1233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188250028, "dur":515, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188250024, "dur":519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188250647, "dur":471, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188250645, "dur":473, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188250550, "dur":572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188251126, "dur":2124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188251122, "dur":2128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188253344, "dur":2107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188253343, "dur":2108, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188253257, "dur":2198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188255458, "dur":2932, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/Mirror.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188255456, "dur":2936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Mirror.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188258392, "dur":124, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Mirror.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188258824, "dur":4672, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/Mirror.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188258823, "dur":4674, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Mirror.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188258521, "dur":4980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/Mirror.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188263506, "dur":645, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188263502, "dur":649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188264273, "dur":792, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188264271, "dur":794, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188264160, "dur":909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188265074, "dur":1847, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188265070, "dur":1851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188267028, "dur":1761, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188267026, "dur":1763, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188266929, "dur":1873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188268807, "dur":2053, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188268803, "dur":2057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188270977, "dur":1591, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188270973, "dur":1595, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188270869, "dur":1705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188272584, "dur":286, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188272574, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188273526, "dur":541, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188273488, "dur":579, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188273066, "dur":1044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1777379188274110, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AIModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":7, "ts":1777379188274194, "dur":892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Data-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":7, "ts":1777379188275086, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1777379188275297, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Mirror.Authenticators-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":7, "ts":1777379188275648, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1777379188275742, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Transactions-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":7, "ts":1777379188275865, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.DSPGraphModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":7, "ts":1777379188275932, "dur":496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.TextMeshPro-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":7, "ts":1777379188276497, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SpriteMaskModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":7, "ts":1777379188276696, "dur":147218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187959361, "dur":2993, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187962356, "dur":1162, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187963518, "dur":1193, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187964711, "dur":154, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187964865, "dur":1215, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187966102, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp/StagingArea/DefaultPreferences.plist" }}
+,{ "pid":12345, "tid":8, "ts":1777379187966082, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/DefaultPreferences.plist" }}
+,{ "pid":12345, "tid":8, "ts":1777379187967547, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/DefaultPreferences.plist" }}
+,{ "pid":12345, "tid":8, "ts":1777379187967498, "dur":129, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/DefaultPreferences.plist" }}
+,{ "pid":12345, "tid":8, "ts":1777379187967001, "dur":634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/DefaultPreferences.plist" }}
+,{ "pid":12345, "tid":8, "ts":1777379187968442, "dur":87, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1777379187967948, "dur":595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1777379187968664, "dur":57, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1777379187969675, "dur":336, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1777379187969590, "dur":421, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1777379187969053, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1777379187970364, "dur":86, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1777379187970037, "dur":426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1777379187970610, "dur":78, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1777379187971362, "dur":80, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1777379187970902, "dur":544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1777379187971538, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187971662, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187971760, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187971842, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187971974, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187972104, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187972189, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187972264, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187972344, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187972429, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187972514, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187972610, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187972674, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187972772, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187972844, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187972926, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187973071, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187973177, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187973246, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187973309, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187973431, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187973511, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379187973594, "dur":254762, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379188228396, "dur":506, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188228367, "dur":536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188228903, "dur":2320, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188231224, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379188231928, "dur":315, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188231923, "dur":320, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188231372, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188232252, "dur":3337, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/Mirror.Transports.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188232248, "dur":3342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Mirror.Transports.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188236686, "dur":3486, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/Mirror.Transports.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188236684, "dur":3488, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Mirror.Transports.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188235597, "dur":4580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/Mirror.Transports.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188240180, "dur":1174, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188240177, "dur":1177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188241354, "dur":2292, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188243832, "dur":788, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188243830, "dur":791, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188243684, "dur":941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188244628, "dur":1443, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188244625, "dur":1446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188246198, "dur":802, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188246197, "dur":803, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188246090, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188247008, "dur":1807, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188247005, "dur":1810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188248815, "dur":51, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188249015, "dur":830, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188249013, "dur":832, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188248880, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188249853, "dur":124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/Unity.InternalAPIEngineBridge.004.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188249849, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Unity.InternalAPIEngineBridge.004.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188250233, "dur":145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/Unity.InternalAPIEngineBridge.004.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188250228, "dur":150, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Unity.InternalAPIEngineBridge.004.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188249986, "dur":441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/Unity.InternalAPIEngineBridge.004.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188250445, "dur":112, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188250428, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188250563, "dur":147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188250714, "dur":3900, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188250711, "dur":3903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188254708, "dur":5412, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188254706, "dur":5415, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188254620, "dur":5519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188260144, "dur":1827, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188260140, "dur":1831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188262097, "dur":1638, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188262094, "dur":1641, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188261978, "dur":1762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188263744, "dur":3885, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188263740, "dur":3889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188267728, "dur":3109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188267726, "dur":3111, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188267635, "dur":3206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188270846, "dur":1323, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/Mirror.Authenticators.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188270841, "dur":1328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Mirror.Authenticators.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188272403, "dur":330, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/Mirror.Authenticators.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188272400, "dur":333, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Mirror.Authenticators.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188272178, "dur":560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/Mirror.Authenticators.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188272742, "dur":218, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188272738, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188273350, "dur":465, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188273320, "dur":495, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188272997, "dur":823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1777379188273820, "dur":933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.Physics2DModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1777379188275008, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityConsentModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1777379188275078, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1777379188275138, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Data.DataSetExtensions-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1777379188275433, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityCurlModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1777379188275593, "dur":704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ShaderVariantAnalyticsModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1777379188276401, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.PropertiesModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1777379188276674, "dur":147263, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379187959364, "dur":2993, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379187962359, "dur":1188, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379187963547, "dur":1216, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379187964764, "dur":1319, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379187966123, "dur":73, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1777379187966783, "dur":235, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1777379187966780, "dur":238, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1777379187966637, "dur":385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1777379187967517, "dur":287, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1777379187967446, "dur":358, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1777379187967039, "dur":769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1777379187967919, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1777379187968687, "dur":541, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1777379187968625, "dur":603, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1777379187968140, "dur":1095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1777379187969390, "dur":84, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Frameworks/libmonobdwgc-2.0.dylib" }}
+,{ "pid":12345, "tid":9, "ts":1777379187969475, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379187970238, "dur":82, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Frameworks/libmonobdwgc-2.0.dylib" }}
+,{ "pid":12345, "tid":9, "ts":1777379187969708, "dur":623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Frameworks/libmonobdwgc-2.0.dylib" }}
+,{ "pid":12345, "tid":9, "ts":1777379187970508, "dur":88, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1777379187971160, "dur":79, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1777379187970730, "dur":514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1777379187971346, "dur":93, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"WriteText build chess.app/Contents/Info.plist" }}
+,{ "pid":12345, "tid":9, "ts":1777379187971815, "dur":115, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"WriteText build chess.app/Contents/Info.plist" }}
+,{ "pid":12345, "tid":9, "ts":1777379187971570, "dur":375, "ph":"X", "name": "WriteText",  "args": { "detail":"build chess.app/Contents/Info.plist" }}
+,{ "pid":12345, "tid":9, "ts":1777379187971949, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379187972044, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379187972146, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379187972222, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379187972285, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379187972362, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379187972418, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379187972499, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379187972579, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379187972689, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379187972745, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379187972835, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379187972913, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379187973040, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379187973169, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379187973290, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379187973420, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379187973500, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379187973573, "dur":254798, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379188228408, "dur":825, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188228372, "dur":862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188229234, "dur":2012, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188231727, "dur":306, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188231725, "dur":308, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188231374, "dur":667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188232046, "dur":745, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188232042, "dur":749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188232930, "dur":2066, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188232927, "dur":2069, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188232798, "dur":2204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188235007, "dur":647, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188235003, "dur":651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188235655, "dur":991, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188237013, "dur":407, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188237010, "dur":410, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188236710, "dur":717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188237431, "dur":6371, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188237428, "dur":6374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188243940, "dur":2834, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188243939, "dur":2835, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188243823, "dur":2955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188246781, "dur":416, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188246778, "dur":419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188247294, "dur":225, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188247292, "dur":227, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188247204, "dur":319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188247526, "dur":1531, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/Unity.Scripting.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188247523, "dur":1534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Unity.Scripting.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188249174, "dur":561, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/Unity.Scripting.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188249172, "dur":563, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Unity.Scripting.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188249068, "dur":671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/Unity.Scripting.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188249743, "dur":124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188249739, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188249989, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188249987, "dur":116, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188249879, "dur":228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188250110, "dur":204, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188250107, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188250468, "dur":244, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188250465, "dur":247, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188250321, "dur":394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188250719, "dur":4497, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188250716, "dur":4500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188255305, "dur":6622, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188255304, "dur":6623, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188255222, "dur":6711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188261938, "dur":354, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188261934, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188262417, "dur":293, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188262416, "dur":294, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188262301, "dur":415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188262720, "dur":4559, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.VectorGraphicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188262716, "dur":4563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.VectorGraphicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188267381, "dur":3439, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.VectorGraphicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188267379, "dur":3441, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.VectorGraphicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188267286, "dur":3538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.VectorGraphicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188270830, "dur":1674, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188270825, "dur":1679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188272504, "dur":66, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188272571, "dur":60, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1777379188272769, "dur":655, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188272767, "dur":657, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188272632, "dur":796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1777379188273428, "dur":456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ScriptingModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":9, "ts":1777379188274002, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Configuration-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":9, "ts":1777379188274177, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TilemapModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":9, "ts":1777379188274316, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestAssetBundleModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":9, "ts":1777379188274469, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.GameCenterModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":9, "ts":1777379188274775, "dur":1252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.CrashReportingModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":9, "ts":1777379188276067, "dur":606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.MarshallingModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":9, "ts":1777379188276686, "dur":147245, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1777379187959371, "dur":2990, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1777379187962362, "dur":1196, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1777379187963558, "dur":1231, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1777379187964790, "dur":1306, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1777379187966096, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1777379187966619, "dur":165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1777379187967336, "dur":63, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1777379187966867, "dur":539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1777379187967538, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1777379187967592, "dur":57, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1777379187968379, "dur":77, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1777379187967866, "dur":596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1777379187968568, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1777379187968631, "dur":63, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1777379187969229, "dur":55, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1777379187968932, "dur":359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1777379187969413, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Frameworks/libMonoPosixHelper.dylib" }}
+,{ "pid":12345, "tid":10, "ts":1777379187969495, "dur":79, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Frameworks/libMonoPosixHelper.dylib" }}
+,{ "pid":12345, "tid":10, "ts":1777379187969663, "dur":533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Frameworks/libMonoPosixHelper.dylib" }}
+,{ "pid":12345, "tid":10, "ts":1777379187970359, "dur":82, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1777379187970597, "dur":448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1777379187971178, "dur":55, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1777379187972073, "dur":99, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1777379187971427, "dur":750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1777379187972270, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1777379187972356, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1777379187972434, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1777379187972523, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1777379187972622, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1777379187972726, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1777379187972811, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1777379187972886, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1777379187972989, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1777379187973151, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1777379187973276, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1777379187973392, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1777379187973473, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1777379187973544, "dur":254794, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1777379188228353, "dur":197, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188228348, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188231492, "dur":180, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188231420, "dur":252, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188231151, "dur":538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188231700, "dur":1109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188231691, "dur":1118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188232950, "dur":3463, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188232948, "dur":3465, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188232817, "dur":3600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188236420, "dur":8471, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188236417, "dur":8475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188245024, "dur":3349, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188245022, "dur":3351, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188244898, "dur":3480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188248382, "dur":753, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188248378, "dur":757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188249286, "dur":324, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188249284, "dur":326, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188249159, "dur":455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188249618, "dur":389, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188249614, "dur":400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188250168, "dur":435, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188250167, "dur":436, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188250036, "dur":612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188250657, "dur":1842, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.HierarchyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188250649, "dur":1850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.HierarchyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188252595, "dur":1539, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.HierarchyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188252594, "dur":1540, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.HierarchyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188252506, "dur":1632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.HierarchyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188254141, "dur":503, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/Telepathy.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188254138, "dur":506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Telepathy.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188254750, "dur":773, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/Telepathy.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188254748, "dur":775, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Telepathy.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188254652, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/Telepathy.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188255530, "dur":3477, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188255527, "dur":3480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188259104, "dur":4178, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188259103, "dur":4179, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188259015, "dur":4272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188263292, "dur":505, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188263287, "dur":511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188263907, "dur":1373, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188263906, "dur":1374, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188263810, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188265289, "dur":551, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188265284, "dur":556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188265957, "dur":431, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188265955, "dur":434, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188265846, "dur":547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188266397, "dur":962, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188266393, "dur":967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188267467, "dur":471, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188267465, "dur":473, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188267366, "dur":612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188267983, "dur":1540, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188267978, "dur":1545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188269611, "dur":2963, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188269610, "dur":2964, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188269530, "dur":3048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188272583, "dur":277, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/MacStandalonePlayerBuildProgram/ManagedStripped/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188272578, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188273317, "dur":296, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188273274, "dur":340, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build chess.app/Contents/Resources/Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188272885, "dur":732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build chess.app/Contents/Resources/Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1777379188273618, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestWWWModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":10, "ts":1777379188273828, "dur":452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Telepathy-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":10, "ts":1777379188274352, "dur":953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":10, "ts":1777379188275305, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1777379188275365, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AccessibilityModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":10, "ts":1777379188275464, "dur":691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.LocalizationModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":10, "ts":1777379188276304, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ClothModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":10, "ts":1777379188276523, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1777379188276635, "dur":147305, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1777379188424795, "dur":415, "ph":"X", "name": "ProfilerWriteOutput" }
+,
